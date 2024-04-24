@@ -1,0 +1,222 @@
+/* Gaya untuk navbar */
+.navbar {
+    padding: 10px 20px; /* Atur padding navbar */
+    max-width: 100%; /* Batasi lebar maksimum navbar */
+    margin: 0 auto; /* Pusatkan navbar */
+    background-color: #3498db; /* Warna latar belakang navbar */
+    border-radius: 5px; /* Membuat sudut navbar membulat */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan pada navbar */
+}
+
+/* Gaya untuk merubah warna teks pada tombol navbar */
+.navbar .nav-link {
+    color: #fff; /* Warna teks putih */
+}
+
+/* Gaya untuk merubah warna teks pada tombol navbar saat dihover */
+.navbar .nav-link:hover {
+    color: #f0f0f0; /* Warna teks putih yang lebih terang saat dihover */
+}
+
+/* Gaya untuk merubah warna background saat tombol navbar dihover */
+.navbar .nav-link:hover {
+    background-color: #2980b9; /* Warna latar belakang saat dihover */
+}
+
+/* Gaya untuk merubah warna tombol navbar aktif */
+.navbar .nav-link.active {
+    background-color: #2980b9; /* Warna latar belakang tombol navbar aktif */
+}
+
+/* Gaya untuk merubah warna background saat tombol navbar aktif dihover */
+.navbar .nav-link.active:hover {
+    background-color: #2980b9; /* Warna latar belakang saat tombol navbar aktif dihover */
+}
+
+/* Gaya untuk merubah warna latar belakang dropdown */
+.navbar .dropdown-menu {
+    background-color: #3498db; /* Warna latar belakang dropdown */
+}
+
+/* Gaya untuk merubah warna teks pada dropdown */
+.navbar .dropdown-menu a {
+    color: #fff; /* Warna teks putih */
+}
+
+/* Gaya untuk merubah warna teks pada dropdown saat dihover */
+.navbar .dropdown-menu a:hover {
+    color: #f0f0f0; /* Warna teks putih yang lebih terang saat dihover */
+}
+
+/* Gaya untuk merubah warna latar belakang dropdown saat dihover */
+.navbar .dropdown-menu a:hover {
+    background-color: #2980b9; /* Warna latar belakang saat dihover */
+}
+
+/* Gaya untuk merubah warna tombol dropdown saat dihover */
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: #2980b9; /* Warna latar belakang tombol dropdown saat dihover */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Gaya untuk baris */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Gaya untuk kolom */
+.col-5 {
+    flex: 0 0 48%;
+    max-width: 48%;
+}
+
+/* Gaya untuk kartu */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Gaya untuk judul */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk tombol Simpan */
+.btn-success {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+}
+
+/* Gaya untuk tombol Tambah Album */
+.btn-primary {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #1e87dc;
+}
+
+
+/* Gaya untuk kontainer */
+.product-area {
+    padding: 40px 0;
+}
+
+/* Gaya untuk judul */
+.section-title {
+    margin-bottom: 30px;
+}
+
+.section-title-1 {
+    display: block;
+    font-size: 18px;
+    color: #333;
+}
+
+.section-title-3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Gaya untuk gambar produk */
+.product-row {
+    margin-top: 30px;
+}
+
+.single-item {
+    position: relative
+}
+/* Gaya untuk kartu gambar */
+.single-product {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+    transition: box-shadow 0.3s ease;
+}
+
+.single-product:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Bayangan lebih besar saat hover */
+}
+/* Gaya untuk input group */
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+/* Gaya untuk input dalam input group */
+.input-group input[type="text"],
+.input-group textarea,
+.input-group select {
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+/* Gaya untuk label dalam input group */
+.input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0.25rem;
+    color: #495057;
+}
+
+/* Gaya untuk small dalam input group */
+.input-group small {
+    display: block;
+    margin-top: 0.25rem;
+    color: #dc3545;
+}
+
+/* Gaya untuk tombol simpan */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.like-btn {
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+.like-btn.liked {
+    color: red;
+}

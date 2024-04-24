@@ -1,0 +1,79 @@
+/* style.css */
+
+/* Container styling */
+.custom-area {
+    padding-top: 50px;
+}
+
+/* Form wrapper styling */
+.login-register-wrapper {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section content styling */
+.section-content {
+    margin-bottom: 30px;
+}
+
+/* Title styling */
+.title-4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Description content styling */
+.desc-content {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Button styling */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button color */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+
+/* Button hover effect */
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Link styling */
+.link-danger {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+/* Link hover effect */
+.link-danger:hover {
+    text-decoration: underline;
+}
